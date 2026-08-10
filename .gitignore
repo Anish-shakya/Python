@@ -1,3 +1,4 @@
 .spooky/
+.venv/
 __pycache__/
 *.pyc
