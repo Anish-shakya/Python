@@ -20,7 +20,7 @@ class DataExt:
         df= pd.read_parquet(self.file_path)
         print(df.head(5))
          
-obj = DataExt("Files/orders.csv")
+obj = DataExt("Ch-1_OOP/Files/orders.csv")
 obj.fetch_text(",")
 
 
