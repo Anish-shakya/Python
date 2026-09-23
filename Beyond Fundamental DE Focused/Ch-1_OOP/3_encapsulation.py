@@ -32,3 +32,4 @@ print(obj.dyn2)
 obj.func2()
 
 print(obj._dyn3)
+obj.fun3()
