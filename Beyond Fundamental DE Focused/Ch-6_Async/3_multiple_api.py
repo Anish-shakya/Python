@@ -9,7 +9,7 @@ async def api_call(url:str,delay:int):
 async def main():
     ### Creating the task with Gather
     tasks = await asyncio.gather(
-        api_call("https://api1.com",0),
+        api_call("https://api1.com",1),
         api_call("https://api2.com",10),
         api_call("https://api3.com",5),
         api_call("https://api4.com",10),
